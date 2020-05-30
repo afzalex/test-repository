@@ -31,3 +31,7 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+    
+    # Test step 
+    - name: Test step to read README.md
+      run: cat README.md
